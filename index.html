@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Arithmatic Game Application</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="game.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm left">
+                        <text><span>Arithmatic Game</span></text>
+                </div>
+                <div class="col-sm right">
+                    <div class="rectangle">
+                        
+                        <!-- <input type="text" id="text1"> -->
+                        <br><br><br>
+                        <center><data><p id="text1"></p>
+                        <p id="operation"></p>
+                        <!-- <input type="text" id="text2"> -->
+                        <p id="text2"></p><br></data></center><br>
+                        
+                        <center><input type="text" id="result" onchange="process()" placeholder="Enter Answer"><br></center>
+                        <h1 id="name0"></h1><br>
+                        
+                        <center><h id="MainResult"></h></center>
+                        <center><h1 id="SuccessResult"></h1></center>
+                        <i class="fas fa-thumbs-up"></i>
+
+
+                        <center><input type="button" value="Next Question" onClick="document.location.reload(true)"></center>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+    <script src="game.js"></script>
+</html>
