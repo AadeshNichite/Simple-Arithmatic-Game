@@ -1,4 +1,4 @@
-const type=['+','-','*','/'
+const type=['+','-','*'
  ];
 let a,b,c,d;
 a=Math.floor(Math.random() * 20);
