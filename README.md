@@ -1,7 +1,8 @@
 # Simple-Arithmatic-Game
-Objective:Objective of this application is to make mathematical skill strong.
+
+##Objective : Objective of this application is to make mathematical skill strong.
    
-          This Application is developed using html,css,javascript.
+      This Application is developed using html,css,javascript.
     It is develop to show give a simple game applicatoin for user.
       Every time user get a new questions on simple arithmatical 
     operations and user have to give a answer.If answer is right
