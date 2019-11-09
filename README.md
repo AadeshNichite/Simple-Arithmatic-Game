@@ -1,16 +1,9 @@
-# Simple-Arithmatic-Game
-
-## Application Name
-
-ArithmaticGame
+## ArithmeticGame
+This is arithmetic game application. You have to answer simple arithmetic problems like addition,substracion.
 
 ## Objective :
 
 Objective of this game is to make mathematical skill strong. 
-
-## Author:
-
-[Aadesh Nichite](https://github.com/AadeshNichite)
 
 ## Technology Used:
 
