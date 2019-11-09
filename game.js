@@ -1,16 +1,15 @@
-const type=['+','-','*'
- ];
+const type=['+','-','*'];
 let a,b,c,d;
 a=Math.floor(Math.random() * 20);
 document.getElementById("text1").innerHTML=a;
 b=Math.floor(Math.random() * 20);
 document.getElementById("text2").innerHTML=b;
 
-var rand = type[Math.floor(Math.random() * type.length)];
+let rand = type[Math.floor(Math.random() * type.length)];
 document.getElementById("operation").innerHTML=rand;
 
 function process(){
-            var selectedValue=document.getElementById("result").value;
+            let selectedValue=document.getElementById("result").value;
         if(rand=='+'){
             c=a+b;
             console.log(c);
