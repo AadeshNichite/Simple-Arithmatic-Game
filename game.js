@@ -12,14 +12,10 @@ function process(){
             let selectedValue=document.getElementById("result").value;
         if(rand=='+'){
             c=a+b;
-            console.log(c);
-            console.log("Addition");
             if(c==selectedValue)
             {
-                console.log("success");
-
                 document.getElementById("SuccessResult").innerHTML="success"+" "+"👍";      
-                  }
+            }
             else{
                 document.getElementById("MainResult").innerHTML="Right Answer is"+" "+c;
                 document.getElementById("SuccessResult").innerHTML="Sorry..Failed"+""+"👎"; 
@@ -29,11 +25,8 @@ function process(){
         else if(rand=='*')
         {
             c=a*b;
-            console.log("Multiplication");
-            console.log(c);
             if(c==selectedValue)
             {
-                console.log("success");
                 document.getElementById("SuccessResult").innerHTML="success"+" "+"👍";    
             }
             else{
@@ -45,11 +38,8 @@ function process(){
         else if(rand=='/')
         {
             c=Math.floor(a/b);
-            console.log(c);
-            console.log("div");
             if(c==selectedValue)
             {
-                console.log("success");
                 document.getElementById("SuccessResult").innerHTML="success"+" "+"👍";    
             }
             else{
@@ -61,11 +51,8 @@ function process(){
         else 
         {
             c=a-b;
-            console.log(c);
-            console.log("sub");
             if(c==selectedValue)
             {
-                console.log("success");
                 document.getElementById("SuccessResult").innerHTML="success"+" "+"👍";    
             }
             else{
